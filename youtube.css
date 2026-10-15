@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.youtube-logo {
+    width: 220px;
+    height: 155px;
+    background-color: #ff0000;
+    border-radius: 35px;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%, -50%);
+
+    width: 0;
+    height: 0;
+
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 48px solid white;
+}
